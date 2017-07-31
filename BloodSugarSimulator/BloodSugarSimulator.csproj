@@ -210,6 +210,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="appsettings.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Simulator.File\ExerciseDB.csv" />
+    <Content Include="Simulator.File\FoodDB.csv" />
+    <Content Include="Simulator.File\Input.csv" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -394,6 +400,11 @@
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Simulator.Data\CsvReader.cs" />
+    <Compile Include="Simulator.Type\Exercise.cs" />
+    <Compile Include="Simulator.Type\Food.cs" />
+    <Compile Include="Simulator.Type\Input.cs" />
+    <Compile Include="Simulator.Type\InputType.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -419,6 +430,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Simulator.Business\" />
+    <Folder Include="Simulator.Util\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
