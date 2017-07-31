@@ -12,7 +12,7 @@ namespace BloodSugarSimulator.Simulator.Data
         public List<Input> GetInputList()
         {
             CsvParser parser = new CsvParser();
-            string inputFileLocation = ConfigurationManager.AppSettings["inputFileLocation"];
+            string inputFileLocation = AppDomain.CurrentDomain.BaseDirectory + ConfigurationManager.AppSettings["inputFileLocation"];
             var list = parser.ReadFile(inputFileLocation);
 
             var listout = new List<Input>();
@@ -31,7 +31,7 @@ namespace BloodSugarSimulator.Simulator.Data
         public Dictionary<int, Food> GetFoodDictionary()
         {
             CsvParser parser = new CsvParser();
-            string foodDbFileLocation = ConfigurationManager.AppSettings["foodDbFileLocation"];
+            string foodDbFileLocation = AppDomain.CurrentDomain.BaseDirectory + ConfigurationManager.AppSettings["foodDbFileLocation"];
             var list = parser.ReadFile(foodDbFileLocation);
 
             var dict = new Dictionary<int, Food>();
@@ -50,7 +50,7 @@ namespace BloodSugarSimulator.Simulator.Data
         public Dictionary<int, Exercise> GetExerciseDictionary()
         {
             CsvParser parser = new CsvParser();
-            string exerciseDbFileLocation = ConfigurationManager.AppSettings["exerciseDbFileLocation"];
+            string exerciseDbFileLocation = AppDomain.CurrentDomain.BaseDirectory + ConfigurationManager.AppSettings["exerciseDbFileLocation"];
             var list = parser.ReadFile(exerciseDbFileLocation);
 
             var dict = new Dictionary<int, Exercise>();
