@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BloodSugarSimulator.Simulator.Data;
+using BloodSugarSimulator.Simulator.Type;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -12,12 +14,6 @@ namespace BloodSugarSimulator
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string exerciseDbFileLocation = ConfigurationManager.AppSettings["exerciseDbFileLocation"];
-            string foodDbFileLocation = ConfigurationManager.AppSettings["foodDbFileLocation"];
-            string inputFileLocation = ConfigurationManager.AppSettings["inputFileLocation"];
-            ltlExerciseDbFileLocation.Text = exerciseDbFileLocation;
-            ltlFoodDbFileLocation.Text = foodDbFileLocation;
-            ltlInputFileLocation.Text = inputFileLocation;
         }
     }
 }

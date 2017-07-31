@@ -11,32 +11,5 @@ namespace BloodSugarSimulator {
     
     
     public partial class _Default {
-        
-        /// <summary>
-        /// ltlExerciseDbFileLocation control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltlExerciseDbFileLocation;
-        
-        /// <summary>
-        /// ltlFoodDbFileLocation control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltlFoodDbFileLocation;
-        
-        /// <summary>
-        /// ltlInputFileLocation control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltlInputFileLocation;
     }
 }

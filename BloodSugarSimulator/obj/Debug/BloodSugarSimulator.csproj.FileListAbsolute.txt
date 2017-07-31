@@ -77,3 +77,4 @@ C:\projects\BloodSugarSimulator\BloodSugarSimulator\bin\Microsoft.Owin.Security.
 C:\projects\BloodSugarSimulator\BloodSugarSimulator\obj\Debug\BloodSugarSimulator.dll
 C:\projects\BloodSugarSimulator\BloodSugarSimulator\obj\Debug\BloodSugarSimulator.pdb
 C:\projects\BloodSugarSimulator\BloodSugarSimulator\bin\appsettings.config
+C:\projects\BloodSugarSimulator\BloodSugarSimulator\obj\Debug\BloodSugarSimulator.csprojResolveAssemblyReference.cache
